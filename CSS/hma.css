@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+.container{
+  background-color: rgb(52, 52, 92) !important;
+}
 .row{
   padding: 30px;
 }
@@ -557,7 +560,30 @@
 
 @media (max-width:600px){
 
+.container{
+  background-color: rgb(52, 52, 92) !important;
+  font-size: 14px;
+}
 
+.about{
+  justify-content: center;
+}
+.about li{
+ margin-right: 20px;
+}
+.search{
+  padding-right: 8rem;
+  padding-left: -16rem;
+  
+}
+.log
+{
+  padding-bottom: 3rem !important;
+  
+}
+.log button {
+  margin-right: 7rem;
+}
 .perns img{
   /* margin-left: -6rem; */
   width: 100%;
